@@ -5,7 +5,7 @@ import Container from "@mui/material/Container";
 const Landingpage = () => {
   return (
     <div>
-      <div id="bg1">
+      <div id="bg1"className="container-fluid">
         <div class="row pt-5">
           <div class="col-12 col-md-4"></div>
           <div class="col-12  col-md-4 box py-5 border rounder mt-5 text-center">
