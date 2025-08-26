@@ -9,8 +9,8 @@ const Landingpage = () => {
         <div class="row pt-5">
           <div class="col-12 col-md-4"></div>
           <div class="col-12  col-md-4 box py-5 border rounder mt-5 text-center">
-            <h1>Designed to get Hired</h1>
-            <h3>Your Skills, Your Story, your next job - all in one</h3>
+            <h1 style={{color:"white"}}>Designed to get Hired</h1>
+            <h3 style={{color:"whitesmoke"}}>Your Skills, Your Story, your next job - All in one</h3>
             <button style={{border:"solid,1px",padding:"5px",backgroundColor:"#154D71"}}>MAKE YOUR RESUME</button>
           </div>
         </div>
