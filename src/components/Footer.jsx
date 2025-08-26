@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div class="mt-5 text-center bg-primary">
+    <div class="mt-5 text-center bg-primary p-3">
       <div>
         <h3>Contact us</h3>
         <h4>rbuilder@gmail.com</h4>
