@@ -7,11 +7,12 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import Tooltip from "@mui/material/Tooltip";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed">
+      <AppBar position="sticky-top">
         <Toolbar>
           <IconButton
             size="large"
@@ -22,14 +23,16 @@ const Header = () => {
             <WorkOutlineIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Resume
+            <Link to="/" className="text-white text-decoration-none">
+              Resume
+            </Link>
           </Typography>
           <Tooltip
             sx={{ color: "white" }}
             title="we believe that a strong resume is the first step toward landing your dream job. Our platform is designed to make resume building simple, fast, and effective for everyone—from fresh graduates to experienced professionals."
             placement="bottom-start"
           >
-            <Button>About us</Button>
+            <Button>ABOUT US</Button>
           </Tooltip>{" "}
         </Toolbar>
       </AppBar>

@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
+import StepperComponent from "../components/StepperComponent";
+import Preview from "../components/Preview";
 
 const FormPage = () => {
   return (
-    <div>FormPage</div>
-  )
-}
+    <>
+      <div className="row m-5">
+        <div className="col-lg-6">
+          <StepperComponent />
+        </div>
 
-export default FormPage
+        <div className="col-lg-6">
+          <Preview />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default FormPage;

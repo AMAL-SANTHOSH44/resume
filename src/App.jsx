@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Landingpage />} />
         <Route path="resumegenerator" element={<ResumeGenerator />} />
         <Route path="formpage" element={<FormPage />} />
-        <Route path="*" element={<PNF/>} />
+        <Route path="*" element={<PNF />} />
       </Routes>
       <Footer />
     </>
